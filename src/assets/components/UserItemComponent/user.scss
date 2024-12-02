@@ -1,0 +1,45 @@
+.user-body {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 80px 1fr 40px;
+    align-items: center;
+
+    &__fullname {
+        font-size: 18px;
+        padding: 10px 16px;
+    }
+
+    &__email {
+        display: inline-block;
+        margin-top: 12px;
+        font-size: 14px;
+        color: orange;
+        text-decoration: none;
+    }
+
+    &__avatar,
+    &__btn {
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    &__btn {
+        color: rgb(27, 160, 67);
+        font-size: 24px;
+        background-color: #fff;
+        box-shadow: 0 0 16px 4px currentColor;
+        border: 2px solid currentColor;
+        cursor: pointer;
+    }
+
+    &__avatar {
+        &-img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

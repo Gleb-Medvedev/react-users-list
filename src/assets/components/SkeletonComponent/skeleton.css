@@ -1,0 +1,41 @@
+.user_loading {
+  position: relative;
+  height: 80px;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #666;
+}
+.user_loading::after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 130%;
+  top: -15%;
+  left: -10%;
+  background-color: rgba(230, 230, 230, 0.363);
+  -webkit-transform: skewX(-25deg);
+      -ms-transform: skewX(-25deg);
+          transform: skewX(-25deg);
+  -webkit-animation: userLoadingAnimation linear 2s infinite;
+          animation: userLoadingAnimation linear 2s infinite;
+}
+
+@-webkit-keyframes userLoadingAnimation {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 110%;
+  }
+}
+
+@keyframes userLoadingAnimation {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 110%;
+  }
+}/*# sourceMappingURL=loading.css.map */

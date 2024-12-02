@@ -1,0 +1,27 @@
+.user_loading {
+    position: relative;
+    height: 80px;
+    display: grid;
+    align-items: center;
+    color: #666;
+
+    &::after {
+        position: absolute;
+        content: '';
+        width: 10px;
+        height: 130%;
+        top: -15%;
+        left: -10%;
+        background-color: rgba(230, 230, 230, 0.363);
+        transform: skewX(-25deg);
+        animation: userLoadingAnimation linear 2s infinite;
+    }
+}
+
+@keyframes userLoadingAnimation {
+    0% {
+        left: -10%;
+    } 100% {
+        left: 110%;
+    }
+}

@@ -13,35 +13,35 @@
 }
 .users__search::-webkit-input-placeholder {
   font-size: 14px;
-  color: rgba(255, 166, 0, 0.363);
+  color: #666;
   text-transform: lowercase;
   line-height: 20px;
   text-align: center;
 }
 .users__search::-moz-placeholder {
   font-size: 14px;
-  color: rgba(255, 166, 0, 0.363);
+  color: #666;
   text-transform: lowercase;
   line-height: 20px;
   text-align: center;
 }
 .users__search:-ms-input-placeholder {
   font-size: 14px;
-  color: rgba(255, 166, 0, 0.363);
+  color: #666;
   text-transform: lowercase;
   line-height: 20px;
   text-align: center;
 }
 .users__search::-ms-input-placeholder {
   font-size: 14px;
-  color: rgba(255, 166, 0, 0.363);
+  color: #666;
   text-transform: lowercase;
   line-height: 20px;
   text-align: center;
 }
 .users__search::placeholder {
   font-size: 14px;
-  color: rgba(255, 166, 0, 0.363);
+  color: #666;
   text-transform: lowercase;
   line-height: 20px;
   text-align: center;
@@ -58,47 +58,8 @@
   letter-spacing: 1.2px;
   text-transform: capitalize;
   color: #fff;
+  overflow: hidden;
 }
 .users__list-item:not(:last-child) {
   margin-bottom: 24px;
-}
-.users__list-item .user-body {
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: 80px 1fr 40px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.users__list-item .user-body__fullname {
-  font-size: 18px;
-  padding: 12px 24px;
-}
-.users__list-item .user-body__email {
-  display: inline-block;
-  margin-top: 12px;
-  font-size: 14px;
-  color: orange;
-  text-decoration: none;
-}
-.users__list-item .user-body__avatar, .users__list-item .user-body__btn {
-  aspect-ratio: 1/1;
-  border-radius: 50%;
-  border: none;
-  overflow: hidden;
-  text-align: center;
-}
-.users__list-item .user-body__btn {
-  color: orange;
-  font-size: 24px;
-  background-color: #fff;
-  -webkit-box-shadow: 0 0 16px orange;
-          box-shadow: 0 0 16px orange;
-  cursor: pointer;
-}
-.users__list-item .user-body__avatar-img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
 }/*# sourceMappingURL=users.css.map */

@@ -1,0 +1,41 @@
+.user-body {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 80px 1fr 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.user-body__fullname {
+  font-size: 18px;
+  padding: 10px 16px;
+}
+.user-body__email {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 14px;
+  color: orange;
+  text-decoration: none;
+}
+.user-body__avatar, .user-body__btn {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
+}
+.user-body__btn {
+  color: rgb(27, 160, 67);
+  font-size: 24px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 16px 4px currentColor;
+          box-shadow: 0 0 16px 4px currentColor;
+  border: 2px solid currentColor;
+  cursor: pointer;
+}
+.user-body__avatar-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=user.css.map */

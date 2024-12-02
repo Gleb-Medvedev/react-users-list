@@ -1,0 +1,91 @@
+.users {
+    &__search {
+        padding: 10px 24px;
+        border-width: 0 0 2px 0;
+        border-style: solid;
+        border-color: orange;
+        background-color: inherit;
+        color: #fff;
+        width: 100%;
+        line-height: 20px;
+        font-size: 16px;
+        letter-spacing: 1.2px;
+        outline: none;
+
+        &::placeholder {
+            font-size: 14px;
+            color: #666;
+            text-transform: lowercase;
+            line-height: 20px;
+            text-align: center;
+        }
+    }
+
+    &__list {
+        margin-top: 24px;
+        list-style: none;
+
+        &-item {
+            padding: 8px 16px;
+            border-radius: 16px;
+            border: 1px solid #666;
+            text-align: center;
+            letter-spacing: 1.2px;
+            text-transform: capitalize;
+            color: #fff;
+            overflow: hidden;
+
+            &:not(:last-child) {
+                margin-bottom: 24px;
+            }
+
+            // .user-body {
+            //     display: grid;
+            //     grid-template-rows: auto;
+            //     grid-template-columns: 80px 1fr 40px;
+            //     align-items: center;
+
+            //     &__fullname {
+            //         font-size: 18px;
+            //         padding: 10px 16px;
+            //     }
+
+            //     &__email {
+            //         display: inline-block;
+            //         margin-top: 12px;
+            //         font-size: 14px;
+            //         color: orange;
+            //         text-decoration: none;
+            //     }
+
+            //     &__avatar,
+            //     &__btn {
+            //         aspect-ratio: 1 / 1;
+            //         border-radius: 50%;
+            //         overflow: hidden;
+            //         text-align: center;
+            //     }
+
+            //     &__btn {
+            //         color: rgb(27, 160, 67);
+            //         font-size: 24px;
+            //         background-color: #fff;
+            //         box-shadow: 0 0 16px 4px currentColor;
+            //         border: 2px solid currentColor;
+            //         cursor: pointer;
+            //     }
+
+            //     &__avatar {
+            //         &-img {
+            //             display: block;
+            //             width: 100%;
+            //             height: 100%;
+            //             object-fit: cover;
+            //         }
+            //     }
+            // }
+        }
+    }
+
+
+}
