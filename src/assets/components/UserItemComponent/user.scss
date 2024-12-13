@@ -26,12 +26,17 @@
     }
 
     &__btn {
-        color: rgb(27, 160, 67);
+        line-height: 24px;
+        // color: rgb(27, 160, 67);
         font-size: 24px;
         background-color: #fff;
-        box-shadow: 0 0 16px 4px currentColor;
         border: 2px solid currentColor;
         cursor: pointer;
+        transition: 300ms all ease-out;
+
+        &:hover {
+            box-shadow: 0 0 16px 4px currentColor;
+        }
     }
 
     &__avatar {

@@ -6,3 +6,97 @@
   margin: 30px auto 0;
   box-shadow: 0 0 16px #666;
 }
+
+.users__search {
+  padding: 10px 24px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(27, 160, 67);
+  border-radius: 16px;
+  -webkit-box-shadow: 0 0 8px 1px rgb(27, 160, 67);
+          box-shadow: 0 0 8px 1px rgb(27, 160, 67);
+  background-color: #fff;
+  color: #666;
+  width: 100%;
+  line-height: 20px;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  outline: none;
+}
+.users__search::-webkit-input-placeholder {
+  font-size: 14px;
+  color: #666;
+  text-transform: lowercase;
+  line-height: 20px;
+  text-align: center;
+}
+.users__search::-moz-placeholder {
+  font-size: 14px;
+  color: #666;
+  text-transform: lowercase;
+  line-height: 20px;
+  text-align: center;
+}
+.users__search:-ms-input-placeholder {
+  font-size: 14px;
+  color: #666;
+  text-transform: lowercase;
+  line-height: 20px;
+  text-align: center;
+}
+.users__search::-ms-input-placeholder {
+  font-size: 14px;
+  color: #666;
+  text-transform: lowercase;
+  line-height: 20px;
+  text-align: center;
+}
+.users__search::placeholder {
+  font-size: 14px;
+  color: #666;
+  text-transform: lowercase;
+  line-height: 20px;
+  text-align: center;
+}
+.users__list {
+  margin-top: 24px;
+  list-style: none;
+}
+.users__list-item {
+  padding: 8px 16px;
+  border-radius: 16px;
+  border: 1px solid #666;
+  text-align: center;
+  letter-spacing: 1.2px;
+  text-transform: capitalize;
+  color: #fff;
+  overflow: hidden;
+}
+.users__list-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+.users__btn {
+  margin-top: 24px;
+  color: rgb(27, 160, 67);
+  border: 2px solid currentColor;
+  text-shadow: 0.5px 0.5px 2px currentColor;
+  -webkit-box-shadow: 0 0 8px 1px currentColor;
+          box-shadow: 0 0 8px 1px currentColor;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border-radius: 16px;
+  padding: 12px 24px;
+  display: inline-block;
+  width: 100%;
+  font-size: 18px;
+  cursor: pointer;
+  -webkit-transition: 300ms all ease-out;
+  transition: 300ms all ease-out;
+}
+.users__btn:disabled {
+  color: red;
+  cursor: not-allowed;
+}
+.users__btn:hover {
+  letter-spacing: 4px;
+}/*# sourceMappingURL=users.css.map */

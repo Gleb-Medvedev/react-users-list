@@ -2,8 +2,12 @@ import './skeleton.css';
 
 export function SkeletonItem() {
     return (
-        <div className="user_loading">
-            loading...
-        </div>
+        <li
+            className="users__list-item user"
+        >
+            <div className="user_loading">
+                loading...
+            </div>
+    </li>
     )
 }
